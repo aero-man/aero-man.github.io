@@ -1344,6 +1344,8 @@ input, select, textarea {
 
 		}
 
+
+
 /* Wrapper */
 
 	#wrapper {
@@ -1493,6 +1495,13 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
+		}
+		    @media screen and (max-width: 400px) {
+
+			#header nav span{
+				display: none !important;
+			}
+
 		}
 
 			#header nav > ul {
